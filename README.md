@@ -53,6 +53,7 @@ Tabla de transición de estados:
 | 6 | Capuchino amargo | $4,00 | 0 | 1 | 0 | 15s |
 | 7 | Capuchino dulce | $4,25  | 1 | 0 | 0 | 25s |
 
+Diagrama de estados:
 
 ```mermaid
 graph TD;
@@ -64,32 +65,7 @@ graph TD;
 
   
     
-```
-```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 1,
-      "properties": {
-        "ID": 0
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-              [-90,35],
-              [-90,30],
-              [-85,30],
-              [-85,35],
-              [-90,35]
-          ]
-        ]
-      }
-    }
-  ]
-}
+
 ```
 # <strong> Simualcion </strong>
 <p>https://www.youtube.com/watch?v=cZwTsTdGOHY</p>
