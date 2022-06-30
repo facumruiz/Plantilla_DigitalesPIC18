@@ -59,7 +59,7 @@ graph TD;
     INICIO-->SELECT
 
     SELECT-->CAFE;
-    CAFE-->INICO;
+    CAFE-->INICIO;
 
   
     
