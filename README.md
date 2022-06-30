@@ -44,10 +44,14 @@ en la tabla.</p>
 la maquina preparada para una proxima operacion.</p>
 
 
-| Comando | Descripción | Descripción | Descripción |
-| --- | --- |--- |--- |
-| --- | --- |--- |--- |
-| --- | --- |--- |--- |
-| --- | --- |--- |--- |
+| Comando | Descripción | Descripción | Descripción | Descripción |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 
 
