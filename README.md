@@ -7,9 +7,9 @@ Plantilla para usar con el PIC18
 # <strong> Ejercicio☕ </strong>
 <p>
 Se dispone de un sistema expendedor de variedades de cafe, que es controlado por una plaqueta
-que utiliza el microcontrolador PIC18F4550. Cuenta con un teclado de 16 teclas para la
+que utiliza el microcontrolador <strong>PIC18F4550</strong>. Cuenta con un teclado de 16 teclas para la
 selecci´on de sus 7 productos, construido internamente como un teclado matricial de 4 x 4.
-Tambi´en cuenta con display LCD inteligente 16 caracteres, 2 lineas utilizado para indicar
+Tambi´en cuenta con <strong>display LCD inteligente 16 caracteres, 2 lineas</strong> utilizado para indicar
 el importe del producto seleccionado.
 Al seleccionar alguno de los productos disponibles, se debe activar el monedero (LD2
 LED1 que al principio esta desactivado); permitiendo de este modo que ingresen las monedas
