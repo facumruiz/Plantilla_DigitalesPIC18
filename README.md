@@ -57,8 +57,8 @@ Tabla de transición de estados:
 ```mermaid
 graph TD;
     A-->B;
+    B-->C;
     C-->D;
-    E-->F;
     
 ```
 
