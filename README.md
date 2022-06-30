@@ -58,8 +58,8 @@ Tabla de transición de estados:
 graph TD;
     INICIO-->SELECT
 
-    SELECT-->001;
-    001-->000;
+    SELECT-->CAFE;
+    CAFE-->SELECT;
 
   
     
