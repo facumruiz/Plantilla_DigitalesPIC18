@@ -32,3 +32,14 @@ presionar una tecla) se debe activar el timer por 5 segundos para que el usuario
 nuestro caso, se ajustan los dip-switch que representan
 las monedas).
 </p>
+
+<strong> Una vez finalizado el tiempo, debe: </strong>
+<p>• Desactivar el monedero (LED1)</p>
+<p>• Inhibir el teclado (deja de atender la opresi´on de una tecla)</p>
+<p>• Activar la salidas correspondientes (LD3, LC6 y LC7) durante el tiempo indicado
+en la tabla.</p>
+<p>• Mostrar en el display la tarifa del producto seleccionado con coma.</p>
+
+<p>Luego un dispositivo electromecanico que NO ES DE NUESTRA INCUMBENCIA procede a servir el vaso durante un tiempo de 20 segundos. A partir de all´ı, debe dejar
+la m´aquina preparada para una proxima operacion.</p>
+
