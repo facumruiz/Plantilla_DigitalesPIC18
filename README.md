@@ -53,5 +53,14 @@ Tabla de transición de estados:
 | 6 | Capuchino amargo | $4,00 | 0 | 1 | 0 | 15s |
 | 7 | Capuchino dulce | $4,25  | 1 | 0 | 0 | 25s |
 
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 # <strong> Simualcion </strong>
 <p>https://www.youtube.com/watch?v=cZwTsTdGOHY</p>
