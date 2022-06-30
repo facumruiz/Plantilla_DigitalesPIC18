@@ -44,14 +44,14 @@ en la tabla.</p>
 la maquina preparada para una proxima operacion.</p>
 
 
-| 1 | 2 | 3 | 4 | 5 | 6 | 6 |
+| N° de tecla | Producto seleccionado  | Importe  | LD3 | LC6  | LC7  | Tiempo |
 | --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- |
+| 1  | Cafe solo amargo | 2,50  | 0 | 0 | --- | --- |
+| 2 | Cafe solo dulce  | 3,00 | 0 | 1 | --- | --- |
+| 3 | Cafe con leche amargo  | 2,75 | 0 | 1 | --- | --- |
+| 4 | Cafe con leche dulce | 3,25  | 1 | 0 | --- | --- |
+| 5 | Cafe con leche muy dulce | 3,50 | 1 | 0 | --- | --- |
+| 6 | Capuchino amargo | 4,00 | 0 | 1 | -- | --- |
+| 7 | Capuchino dulce | 4,25  | 1 | 0 | --- | --- |
 
 
