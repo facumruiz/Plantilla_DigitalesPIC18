@@ -44,6 +44,7 @@ en la tabla.</p>
 la maquina preparada para una proxima operacion.</p>
 
 
+
 | N° de tecla | Producto seleccionado  | Importe  | LD3 | LC6  | LC7  | Tiempo |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1  | Cafe solo amargo | $2,50  | 0 | 0 | 1 | 15s |
