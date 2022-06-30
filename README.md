@@ -4,9 +4,9 @@ Plantilla para usar con el PIC18
 <strong> Simulacion de programa hecho con esta plantilla: </strong> 
 <p>https://www.youtube.com/watch?v=cZwTsTdGOHY</p>
 
-# <strong> Ejercicio </strong>
+# <strong> Ejercicio☕ </strong>
 <p>
-Se dispone de un sistema expendedor de variedades de caf´e, que es controlado por una plaqueta
+Se dispone de un sistema expendedor de variedades de cafe, que es controlado por una plaqueta
 que utiliza el microcontrolador PIC18F4550. Cuenta con un teclado de 16 teclas para la
 selecci´on de sus 7 productos, construido internamente como un teclado matricial de 4 x 4.
 Tambi´en cuenta con display LCD inteligente 16 caracteres, 2 lineas utilizado para indicar
