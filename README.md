@@ -1,4 +1,4 @@
-# pic18f
+# PIC18F
 Plantilla para usar con el PIC18
 
 
