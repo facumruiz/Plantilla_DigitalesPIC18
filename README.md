@@ -2,7 +2,7 @@
 Plantilla para usar con el PIC18
 
 
-# <strong> Ejercicio☕ </strong>
+# <strong> Ejercicio☕ </strong> (ejemplo)
 <p>
 Se dispone de un sistema expendedor de variedades de cafe, que es controlado por una plaqueta
 que utiliza el microcontrolador <strong>PIC18F4550</strong>. Cuenta con un teclado de 16 teclas para la
