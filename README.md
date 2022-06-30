@@ -56,10 +56,10 @@ Tabla de transición de estados:
 
 ```mermaid
 graph TD;
-    A-->B;
-    C-->D;
+    A-->C;
     D-->B;
     B-->A;
+    
 ```
 
 # <strong> Simualcion </strong>
