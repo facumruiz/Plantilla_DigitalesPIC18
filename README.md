@@ -56,9 +56,9 @@ Tabla de transición de estados:
 
 ```mermaid
 graph TD;
-    INICIO-->SELECCION DE CAFE 000
+    INICIO-->SELECT
 
-    SELECCION DE CAFE 000-->001;
+    SELECT-->001;
     001-->000;
 
   
