@@ -43,3 +43,6 @@ en la tabla.</p>
 <p>Luego un dispositivo electromecanico que NO ES DE NUESTRA INCUMBENCIA procede a servir el vaso durante un tiempo de 20 segundos. A partir de all´ı, debe dejar
 la m´aquina preparada para una proxima operacion.</p>
 
+| Attempt | #1  | #2  | #3  |
+| ------- | --- | --- |
+| Seconds | 301 | 283 |
