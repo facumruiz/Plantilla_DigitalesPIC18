@@ -43,4 +43,4 @@ en la tabla.</p>
 <p>Luego un dispositivo electromecanico que NO ES DE NUESTRA INCUMBENCIA procede a servir el vaso durante un tiempo de 20 segundos. A partir de all´ı, debe dejar
 la maquina preparada para una proxima operacion.</p>
 
-| Nº DE TECLA | Producto seleccionado | Importe | Importe | Importe | Importe | Importe | Importe | Importe | Importe | 
+| Nº DE TECLA | Producto seleccionado | Importe |
