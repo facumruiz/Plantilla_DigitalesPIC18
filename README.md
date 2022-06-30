@@ -3,3 +3,32 @@ Plantilla para usar con el PIC18
 
 <strong> Simulacion de programa hecho con esta plantilla: </strong> 
 <p>https://www.youtube.com/watch?v=cZwTsTdGOHY</p>
+
+<strong> Ejercicio </strong>
+<p>
+Se dispone de un sistema expendedor de variedades de caf´e, que es controlado por una plaqueta
+que utiliza el microcontrolador PIC18F4550. Cuenta con un teclado de 16 teclas para la
+selecci´on de sus 7 productos, construido internamente como un teclado matricial de 4 x 4.
+Tambi´en cuenta con display LCD inteligente 16 caracteres, 2 lineas utilizado para indicar
+el importe del producto seleccionado.
+Al seleccionar alguno de los productos disponibles, se debe activar el monedero (LD2
+LED1 que al principio esta desactivado); permitiendo de este modo que ingresen las monedas
+de 25, 50 centavos, 1 y 2 pesos. El mecanismo utilizado para la detecci´on de la moneda NO ES
+DE NUESTRA INCUMBENCIA. A los efectos del problema, seg´un el valor de la moneda
+ingresada se activar´a (nivel bajo) una de las cuatro lineas RD4(moneda de $2) , RD5(moneda
+de $1), RD6(moneda de $0,5), RD7(moneda de $0,25) (use dip-switch para remplazar los
+botones).
+</p>
+
+<p>• El teclado esta conectado al puerto B. (Ya
+lo tiene resuelto en el entrenador.)
+</p>
+<p>• Debe considerar el rebote de las teclas.</p>
+<p>• El display est´an conectados en los mismos
+pines que en el entrenador.
+</p>
+<p>• Al momento de seleccionar una bebida (al
+presionar una tecla) se debe activar el timer por 5 segundos para que el usuario ingrese las monedas (en
+nuestro caso, se ajustan los dip-switch que representan
+las monedas).
+</p>
