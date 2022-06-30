@@ -1,8 +1,6 @@
 # pic18f
 Plantilla para usar con el PIC18
 
-<strong> Simulacion de programa hecho con esta plantilla: </strong> 
-<p>https://www.youtube.com/watch?v=cZwTsTdGOHY</p>
 
 # <strong> Ejercicio☕ </strong>
 <p>
@@ -55,4 +53,5 @@ Tabla de transición de estados:
 | 6 | Capuchino amargo | $4,00 | 0 | 1 | 0 | 15s |
 | 7 | Capuchino dulce | $4,25  | 1 | 0 | 0 | 25s |
 
-
+# <strong> Simualcion </strong>
+<p>https://www.youtube.com/watch?v=cZwTsTdGOHY</p>
