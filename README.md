@@ -45,6 +45,6 @@ la maquina preparada para una proxima operacion.</p>
 
 
 | Primer encabezado | Segundo encabezado |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | Contenido de la celda  | Contenido de la celda  |
 | Contenido de la celda  | Contenido de la celda  |
