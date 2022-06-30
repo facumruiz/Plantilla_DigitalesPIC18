@@ -43,7 +43,7 @@ en la tabla.</p>
 <p>Luego un dispositivo electromecanico que NO ES DE NUESTRA INCUMBENCIA procede a servir el vaso durante un tiempo de 20 segundos. A partir de all´ı, debe dejar
 la maquina preparada para una proxima operacion.</p>
 
-<strong> Tabla de transición de estados </strong>
+Tabla de transición de estados:
 
 | N° de tecla | Producto seleccionado  | Importe  | LD3 | LC6  | LC7  | Tiempo |
 | --- | --- | --- | --- | --- | --- | --- |
