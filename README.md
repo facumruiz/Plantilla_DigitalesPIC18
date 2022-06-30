@@ -58,8 +58,8 @@ Tabla de transición de estados:
 graph TD;
     000-->001;
     001-->000;
-    C-->D;
-    D-->E;
+    000-->010;
+    010-->000;
     E-->G;
     G-->S;
     
