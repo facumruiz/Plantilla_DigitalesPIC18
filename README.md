@@ -56,6 +56,8 @@ Tabla de transición de estados:
 
 ```mermaid
 graph TD;
+    INICIO-->000
+
     000-->001;
     001-->000;
 
