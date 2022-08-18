@@ -125,7 +125,7 @@ void main(void) {
             case MOSTRAR_CAFE_UNO:
                 cafe=1;
                 set_CURSOR(0x00);
-                msg2LCD("CAFE AMARGO");//MUESTRO EL CAFE QUE ESCOGI” EL CLIENTE
+                msg2LCD("CAFE AMARGO");//MUESTRO EL CAFE QUE ESCOGI√ì EL CLIENTE
                 set_CURSOR(0x40);
                 msg2LCD("Precio >> $2,50");
                 precio=250;  
@@ -136,7 +136,7 @@ void main(void) {
             case MOSTRAR_CAFE_DOS:
                 cafe=2;
                 set_CURSOR(0x00);
-                msg2LCD("CAFE DULCE");//MUESTRO EL CAFE QUE ESCOGI” EL CLIENTE
+                msg2LCD("CAFE DULCE");//MUESTRO EL CAFE QUE ESCOGI√ì EL CLIENTE
                 set_CURSOR(0x40);
                 msg2LCD("Precio >> $3,50");
                 precio=350;  
@@ -147,7 +147,7 @@ void main(void) {
             case MOSTRAR_CAFE_TRES:
                 cafe=3;
                 set_CURSOR(0x00);
-                msg2LCD("LECHE AMARGO");//MUESTRO EL CAFE QUE ESCOGI” EL CLIENTE
+                msg2LCD("LECHE AMARGO");//MUESTRO EL CAFE QUE ESCOGI√ì EL CLIENTE
                 set_CURSOR(0x40);
                 msg2LCD("Precio >> $2,75");
                 precio=275;  
@@ -158,7 +158,7 @@ void main(void) {
             case MOSTRAR_CAFE_CUATRO:
                 cafe=4;
                 set_CURSOR(0x00);
-                msg2LCD("LECHE DULCE");//MUESTRO EL CAFE QUE ESCOGI” EL CLIENTE
+                msg2LCD("LECHE DULCE");//MUESTRO EL CAFE QUE ESCOGI√ì EL CLIENTE
                 set_CURSOR(0x40);
                 msg2LCD("Precio >> $3,25");
                 precio=325; 
@@ -169,7 +169,7 @@ void main(void) {
             case MOSTRAR_CAFE_CINCO:
                 cafe=5;
                 set_CURSOR(0x00);
-                msg2LCD("LECHE MUY DULCE");//MUESTRO EL CAFE QUE ESCOGI” EL CLIENTE
+                msg2LCD("LECHE MUY DULCE");//MUESTRO EL CAFE QUE ESCOGI√ì EL CLIENTE
                 set_CURSOR(0x40);
                 msg2LCD("Precio >> $3,50");
                 precio=350;  
@@ -180,7 +180,7 @@ void main(void) {
             case MOSTRAR_CAFE_SEIS:
                 cafe=6;
                 set_CURSOR(0x00);
-                msg2LCD("CAPUCHINO AMARGO");//MUESTRO EL CAFE QUE ESCOGI” EL CLIENTE
+                msg2LCD("CAPUCHINO AMARGO");//MUESTRO EL CAFE QUE ESCOGI√ì EL CLIENTE
                 set_CURSOR(0x40);
                 msg2LCD("Precio >> $4,00");
                 precio=400 ;
@@ -192,7 +192,7 @@ void main(void) {
             case MOSTRAR_CAFE_SIETE:
                 cafe=7;
                 set_CURSOR(0x00);
-                msg2LCD("CAPUCHINO DULCE");//MUESTRO EL CAFE QUE ESCOGI” EL CLIENTE
+                msg2LCD("CAPUCHINO DULCE");//MUESTRO EL CAFE QUE ESCOGI√ì EL CLIENTE
                 set_CURSOR(0x40);
                 msg2LCD("Precio >> $4,25");
                 precio=425;  
@@ -383,7 +383,7 @@ void __interrupt () my_isr_routine (void){
     if (TMR0IF ==1)
     {   
         TMR0IF=0;
-        TMR0L = 209;                    //el timer contar· 47 fosc/4 * 256 = 12032 * 0,0833us
+        TMR0L = 209;                    //el timer contar√° 47 fosc/4 * 256 = 12032 * 0,0833us
         TMR0H = 0xFF; 
         //tic_LCD(); 
         tic_teclado();
