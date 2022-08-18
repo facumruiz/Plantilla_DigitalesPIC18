@@ -1,8 +1,8 @@
 # PIC18F
-Plantilla para usar con el PIC18
+Plantilla para usar con el PIC18 en la materia Aplicaciones de Electronica Digitales(AEDIII)
 
 
-# <strong> Ejercicio☕ </strong> (ejemplo)
+# <strong> Ejercicio Maquina de Cafe☕ </strong> (ejemplo)
 <p>
 Se dispone de un sistema expendedor de variedades de cafe, que es controlado por una plaqueta
 que utiliza el microcontrolador <strong>PIC18F4550</strong>. Cuenta con un teclado de 16 teclas para la
