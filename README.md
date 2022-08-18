@@ -68,4 +68,5 @@ graph TD;
 
 ```
 # <strong> Simualcion </strong>
+La simulacion fue hecha en SimulIDE, configurando cada puerto del PIC con sus entradas y salidas correspondientes teniendo en cuenta el enunciado y la problematica.
 <p>https://www.youtube.com/watch?v=cZwTsTdGOHY</p>
