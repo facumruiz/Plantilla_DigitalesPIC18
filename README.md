@@ -59,8 +59,8 @@ Diagrama de estados:
 graph TD;
     INICIO-->SELECT
 
-    SELECT-->CAFE;
-    CAFE-->SIRVO;
+    SELECT-->PREPARO CAFE;
+    PREPARO CAFE-->SIRVO;
     SIRVO-->INICIO;
 
   
