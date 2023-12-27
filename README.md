@@ -86,25 +86,46 @@ Dentro de cada caso de la máquina de estados, se realizan acciones específicas
 
 El diagrama representa la estructura de la máquina de estados utilizada en el código de la máquina de café:
 
-```plaintext
-    +---------------+           +------------------------+           +----------------------+
-    | MENU_PRINCIPAL|---------> | MOSTRAR_CAFE_UNO       |---------> | MONEDERO             |
-    +---------------+           +------------------------+           +----------------------+
-           |                         |      ^                           |      ^
-           |                         |      |                           |      |
-           |                         |      |                           |      |
-           v                         v      |                           v      |
-    +---------------+           +------------------------+           +----------------------+
-    |   ERROR       |<----------| RETIRE_CAFE            |           | PREPARANDO_CAFE      |
-    +---------------+           +------------------------+           +----------------------+
-                                                |                                  ^
-                                                |                                  |
-                                                |                                  |
-                                                v                                  |
-                                          +------------------------+                |
-                                          | MOSTRAR_CAFE_DOS       |----------------+
-                                          +------------------------+
-```
++-------------------+
+| MENU_PRINCIPAL    |
++-------------------+
+        |
+  (botón pulsado)
+        |
++-------------------+
+| MOSTRAR_CAFE_...  |
++-------------------+
+        |
+  (monedas ingresadas)
+        |
++-------------------+
+| MONEDERO          |
++-------------------+
+        |
+(tiempo agotado o monedas suficientes)
+        |
++-------------------+
+| PREPARANDO_CAFE   |
++-------------------+
+        |
+  (tiempo de preparación agotado)
+        |
++-------------------+
+| RETIRE_CAFE       |
++-------------------+
+        |
+(tiempo agotado)
+        |
++-------------------+
+| ERROR             |
++-------------------+
+        |
+  (tiempo de error agotado)
+        |
++-------------------+
+| MENU_PRINCIPAL    |
++-------------------+
+
 
 # <strong> Simualcion </strong>
 La simulacion fue hecha en SimulIDE, configurando cada puerto del PIC con sus entradas y salidas correspondientes teniendo en cuenta el enunciado y la problematica.
