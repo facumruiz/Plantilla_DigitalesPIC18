@@ -86,45 +86,13 @@ Dentro de cada caso de la máquina de estados, se realizan acciones específicas
 
 El diagrama representa la estructura de la máquina de estados utilizada en el código de la máquina de café:
 
-+-------------------+
-| MENU_PRINCIPAL    |
-+-------------------+
-        |
-  (botón pulsado)
-        |
-+-------------------+
-| MOSTRAR_CAFE_...  |
-+-------------------+
-        |
-  (monedas ingresadas)
-        |
-+-------------------+
-| MONEDERO          |
-+-------------------+
-        |
-(tiempo agotado o monedas suficientes)
-        |
-+-------------------+
-| PREPARANDO_CAFE   |
-+-------------------+
-        |
-  (tiempo de preparación agotado)
-        |
-+-------------------+
-| RETIRE_CAFE       |
-+-------------------+
-        |
-(tiempo agotado)
-        |
-+-------------------+
-| ERROR             |
-+-------------------+
-        |
-  (tiempo de error agotado)
-        |
-+-------------------+
-| MENU_PRINCIPAL    |
-+-------------------+
+MENU_PRINCIPAL --> MOSTRAR_CAFE_... : (botón pulsado)
+MOSTRAR_CAFE_... --> MONEDERO : (monedas ingresadas)
+MONEDERO --> PREPARANDO_CAFE : (tiempo agotado o monedas suficientes)
+PREPARANDO_CAFE --> RETIRE_CAFE : (tiempo de preparación agotado)
+RETIRE_CAFE --> ERROR : (tiempo agotado)
+ERROR --> MENU_PRINCIPAL : (tiempo de error agotado)
+
 
 
 # <strong> Simualcion </strong>
