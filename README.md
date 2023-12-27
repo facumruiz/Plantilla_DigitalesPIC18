@@ -53,20 +53,58 @@ Tabla de transición de estados:
 | 6 | Capuchino amargo | $4,00 | 0 | 1 | 0 | 15s |
 | 7 | Capuchino dulce | $4,25  | 1 | 0 | 0 | 25s |
 
-Diagrama de estados:
+## Explicación del Código en Lenguaje C (Máquina de Café)
 
-```mermaid
-graph TD;
-    INICIO-->SELECT
+### Cabeceras y definiciones iniciales:
 
-    SELECT-->PREPARO;
-    PREPARO-->SIRVO;
-    SIRVO-->INICIO;
+El código comienza incluyendo librerías estándar y archivos de cabecera para la configuración del microcontrolador y los componentes del sistema. Además, se definen pines específicos para representar las señales de monedas.
 
-  
-    
+### Variables globales:
 
-```
+Se declaran varias variables utilizadas en diferentes partes del código para el control de la máquina de café.
+
+### Máquina de estados:
+
+El programa utiliza una estructura de máquina de estados implementada con un bucle `while(1)` y un `switch(estado)`. Cada `case` dentro del `switch` representa un estado del programa:
+
+- **MENU_PRINCIPAL:** Presenta las opciones de café y espera la selección del cliente.
+- **MOSTRAR_CAFE_X:** Muestra información sobre el café seleccionado y pasa al estado `MONEDERO` para procesar el pago.
+- **MONEDERO:** Gestiona el pago del cliente mediante monedas y controla el tiempo de espera para el pago.
+- **PREPARANDO_CAFE:** Prepara el café seleccionado activando las salidas correspondientes.
+- **RETIRE_CAFE:** Indica que el café está siendo servido.
+- **ERROR:** Indica un error en el proceso.
+
+### Interrupciones:
+
+Se define una función de interrupción que se ejecuta en desbordamientos del temporizador o cuando se presiona un botón. En el caso del temporizador, se actualizan contadores y funciones relacionadas con el tiempo. En la interrupción del puerto B, se detecta la pulsación de botones.
+
+### Funciones específicas:
+
+Dentro de cada caso de la máquina de estados, se realizan acciones específicas como mostrar mensajes en la pantalla LCD, controlar las salidas para preparar el café, gestionar el pago, manejar errores, etc.
+
+## Diagrama de la Máquina de Estados
+
+El diagrama representa la estructura de la máquina de estados utilizada en el código de la máquina de café:
+
+```plaintext
+    +---------------+           +------------------------+           +----------------------+
+    | MENU_PRINCIPAL|---------> | MOSTRAR_CAFE_UNO       |---------> | MONEDERO             |
+    +---------------+           +------------------------+           +----------------------+
+           |                         |      ^                           |      ^
+           |                         |      |                           |      |
+           |                         |      |                           |      |
+           v                         v      |                           v      |
+    +---------------+           +------------------------+           +----------------------+
+    |   ERROR       |<----------| RETIRE_CAFE            |           | PREPARANDO_CAFE      |
+    +---------------+           +------------------------+           +----------------------+
+                                                |                                  ^
+                                                |                                  |
+                                                |                                  |
+                                                v                                  |
+                                          +------------------------+                |
+                                          | MOSTRAR_CAFE_DOS       |----------------+
+                                          +------------------------+
+
 # <strong> Simualcion </strong>
 La simulacion fue hecha en SimulIDE, configurando cada puerto del PIC con sus entradas y salidas correspondientes teniendo en cuenta el enunciado y la problematica.
 <p>https://www.youtube.com/watch?v=cZwTsTdGOHY</p>
