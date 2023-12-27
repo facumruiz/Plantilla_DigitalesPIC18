@@ -104,6 +104,7 @@ El diagrama representa la estructura de la máquina de estados utilizada en el c
                                           +------------------------+                |
                                           | MOSTRAR_CAFE_DOS       |----------------+
                                           +------------------------+
+```
 
 # <strong> Simualcion </strong>
 La simulacion fue hecha en SimulIDE, configurando cada puerto del PIC con sus entradas y salidas correspondientes teniendo en cuenta el enunciado y la problematica.
